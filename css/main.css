@@ -1,0 +1,89 @@
+/*global items*/
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+
+}
+/*start navbar*/
+nav{
+    overflow: hidden;
+    color: dodgerblue;
+    height: 48px;
+}
+nav h2{
+    float: left;
+    width: 50%;
+}
+nav .links{
+    float: left;
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+nav .links li{
+    display: inline-block;
+    padding: 0px;
+    margin-right: 25px;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom:  2px solid transparent;
+}
+nav .links .active,
+nav .links li:hover{
+    border-bottom:  2px solid dodgerblue;  
+}
+/*end nav bar*/
+/* start header*/
+header{
+    background: url('../images/144.jpg');
+    position: relative;
+    top: 0px;
+    
+}
+header .overlay{
+    background-color: rgb(30, 144, 255,0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+header h1{
+    position: relative;
+    z-index: 2;
+    color: white;
+    padding-top: 250px;
+    padding-left: 180px;
+    font-size: 60px
+}
+/*end header*/
+/*start section*/
+section{
+    overflow: hidden;
+    padding-left: 30px;
+}
+section .custom{
+    width: 33%;
+    float: left;
+    margin-top: 40px;
+    padding-left: 10px;
+
+}
+section .custom i{
+    margin-left: 50px;
+}
+section .custom h2{
+    column-count: 2;
+    padding-left: 40px
+}
